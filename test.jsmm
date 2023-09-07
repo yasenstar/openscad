@@ -1,0 +1,28 @@
+{
+    "root": {
+        "name": "Learn OpenSCAD",
+        "style": {},
+        "children": {
+            "right": [
+                {
+                    "name": "Install and Setup",
+                    "style": {}
+                },
+                {
+                    "name": "OpenSCAD Tutorial",
+                    "style": {}
+                },
+                {
+                    "name": "OpenSCAD User Manual",
+                    "style": {}
+                }
+            ],
+            "left": [
+                {
+                    "name": "Practice book",
+                    "style": {}
+                }
+            ]
+        }
+    }
+}
