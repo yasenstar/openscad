@@ -12,7 +12,7 @@ front_wheel_rotate = -20;
 rear_wheel_rotate = 20;
 
 // car body base
-% cube([60,20,base_height],center=true);
+cube([60,20,base_height],center=true);
 // car body top
 translate([5,0,base_height/2 + top_height/2 - 0.001])
      cube([30,20,top_height],center=true);
