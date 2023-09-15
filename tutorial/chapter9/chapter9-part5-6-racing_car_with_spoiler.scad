@@ -1,5 +1,6 @@
 // Racing Car Body
 use <self/vehicle_parts.scad>
+use <self/naca.scad>
 
 $fn=100;
 
@@ -64,7 +65,7 @@ translate([l_rear_axle,0,h/2])
 
 // wheels
 translate([l_front_axle,half_track,h/2])
-    spoked_wheel();
+    simple_wheel(wheel_width=10);
 translate([l_front_axle,-half_track,h/2])
     simple_wheel(wheel_width=10);
 
@@ -72,3 +73,16 @@ translate([l_rear_axle,half_track,h/2])
     simple_wheel(wheel_width=10);
 translate([l_rear_axle,-half_track,h/2])
     simple_wheel(wheel_width=10);
+    
+// Spoiler
+module car_spoiler() {
+    rotate([90,0,0])
+        naca_wing(span=50,chord=20,t=0.12,n=500,center=true);
+    translate([0,10,-15])
+        naca_wing(span=15,chord=15,t=0.12,n=500);
+    translate([0,-10,-15])
+        naca_wing(span=15,chord=15,t=0.12,n=500);
+}
+
+translate([l4+d5/2, 0, 25])
+    car_spoiler();
