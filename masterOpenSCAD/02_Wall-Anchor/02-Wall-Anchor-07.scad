@@ -11,15 +11,22 @@ module wall_anchor(
     inner_taper_end = 0.3,   // relative end of inner tape along length
     collar = 0.1,   // relative length of initial non-slit part
     slit = 0.5,     // slit width
-    cap_size = 2    // length of the end up
+    cap_size = 2,    // length of the end up,
+    teeth_div = 5,  // divisor determining the number of teeth
+    teeth_depth = 1.5,   // depth of the teeth
+    round_shape = false // make the anchor round instead of square
 ) {
     
     difference() {
             
         outer_dm = drill_hole_dm + oversize;
-        side_length = sqrt( pow(outer_dm, 2 ) / 2 );
+        side_length = 
+            round_shape ? outer_dm : sqrt( pow(outer_dm, 2 ) / 2 );
         
         linear_extrude( height = length, scale = outer_taper )
+        if (round_shape)
+            circle( d = side_length, $fn = 100);
+        else
            square( side_length, center = true);
             
         // hole
@@ -51,8 +58,32 @@ module wall_anchor(
                 slit,
                 length - cap_size - abs_collar
         ]);
+        
+        // teeth
+        teeth_count = floor ( (length - abs_collar) / teeth_div );
+//        echo((length - abs_collar) / teeth_div );
+//        echo(teeth_count);
+        teeth_dist = (length - abs_collar) / (teeth_count + 1);
+        
+        opposite = (outer_dm - (outer_dm * outer_taper)) / 2;
+        hypotenuse = sqrt( pow(opposite, 2) + pow(length, 2));
+        angle = asin( opposite / hypotenuse );
+        
+        diag_dist = sqrt( pow(outer_dm/2 - teeth_depth, 2) / 2 );
+        
+        for (j = [0:90:359])
+        rotate( [0, 0, j])
+        rotate( -angle, [1,1,0])
+        for (i = [1:1:teeth_count] )
+        translate( [diag_dist, -diag_dist, abs_collar + i * teeth_dist] )
+        rotate([0,0,-45])
+        translate(  [0, -outer_dm / 2, 0 ] )
+        rotate([0,45,0])
+        cube( outer_dm );
     }
 }
 
-wall_anchor();
+wall_anchor(round_shape=true);
 
+translate ([0, 30, 0])
+wall_anchor();
