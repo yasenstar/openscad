@@ -34,7 +34,7 @@ module hole_plate( size=[100,50,5], hole_dm=6, hole_margin=4, hole_count = [2,2]
 
 }
 
-hole_plate([100,50,5], 6, 4);
+hole_plate([100,50,5], 6, 4, [0,0]);
 
 
 translate( [0, 60, 0])
@@ -52,3 +52,6 @@ hole_plate(
     hole_dm = 5,
     hole_count = [2,1]
 );
+
+translate([0,0,50])
+import("../../tutorial/chapter9/racing_car_with_spoiler.stl");
