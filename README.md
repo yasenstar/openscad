@@ -19,6 +19,10 @@ learn 3d print modeling using OpenSCAD and tutorial of practicing variable shape
 
 https://www.youtube.com/playlist?list=PL6DEHvciXKeUwcYw7k4wKWhW1cbE_omAg
 
+## Resources
+
+- [OpenSCAD Community Chat Channel](https://web.libera.chat/?channel=#openscad)
+
 ---
 
 Authored by Xiaoqi Zhao, contact my [email](mailto:xiaoqizhao@outlook.com) for any questions.
