@@ -3,8 +3,8 @@
 <node TEXT="Mastering OpenSCAD" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1695054746558">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_nord_template.mm"/>
+<hook NAME="MapStyle" background="#f9f9f8" zoom="1.001">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -84,9 +84,22 @@
 <node TEXT="00-02 Transformation, Boolean, Loops" ID="ID_955225437" CREATED="1695054836680" MODIFIED="1695054858233"/>
 <node TEXT="00-03 Modules, Conditional Description" ID="ID_1231675346" CREATED="1695054858592" MODIFIED="1695054873521"/>
 </node>
-<node TEXT="01 Shelf Bracket" POSITION="bottom_or_right" ID="ID_922279565" CREATED="1695054753824" MODIFIED="1695054769155"/>
-<node TEXT="02 Wall Anchor" POSITION="bottom_or_right" ID="ID_1990743051" CREATED="1695054769536" MODIFIED="1695054774008"/>
-<node TEXT="03 Window Stopper" POSITION="bottom_or_right" ID="ID_299703912" CREATED="1695054774159" MODIFIED="1695054778225"/>
+<node TEXT="01 Shelf Bracket" POSITION="bottom_or_right" ID="ID_922279565" CREATED="1695054753824" MODIFIED="1695054769155">
+<node TEXT="Union" ID="ID_1530153022" CREATED="1695253523153" MODIFIED="1695253527839"/>
+<node TEXT="Math functions (e.g. root, power and arc cosine)" ID="ID_1405460313" CREATED="1695253530326" MODIFIED="1695253549793"/>
+<node TEXT="Projection function" ID="ID_1013226724" CREATED="1695253530470" MODIFIED="1695253562817"/>
+</node>
+<node TEXT="02 Wall Anchor" POSITION="bottom_or_right" ID="ID_1990743051" CREATED="1695054769536" MODIFIED="1695054774008">
+<node TEXT="2D Shape: square, circle" POSITION="bottom_or_right" ID="ID_761505045" CREATED="1695253603370" MODIFIED="1695253638341"/>
+<node TEXT="2D to 3D: linear_extrude, also rotate_extrude" ID="ID_241854062" CREATED="1695253574542" MODIFIED="1695253601641"/>
+<node TEXT="3D rotate transformation on cylinder" ID="ID_1169279433" CREATED="1695253645088" MODIFIED="1695253660275"/>
+<node TEXT="Function" ID="ID_1474978156" CREATED="1695253662943" MODIFIED="1695253668211"/>
+</node>
+<node TEXT="03 Window Stopper" POSITION="bottom_or_right" ID="ID_299703912" CREATED="1695054774159" MODIFIED="1695054778225">
+<node TEXT="for-loop with generative for" ID="ID_1797671311" CREATED="1695253674255" MODIFIED="1695253691797"/>
+<node TEXT="keyword: let" ID="ID_1427446846" CREATED="1695253693968" MODIFIED="1695253704293"/>
+<node TEXT="2D Shape: polygon" ID="ID_1870842119" CREATED="1695253705242" MODIFIED="1695253717587"/>
+</node>
 <node TEXT="04 Clock Movement Mockup" POSITION="bottom_or_right" ID="ID_1410236498" CREATED="1695054778759" MODIFIED="1695054784938"/>
 <node TEXT="05 Pen Holder" POSITION="bottom_or_right" ID="ID_1391782252" CREATED="1695054785095" MODIFIED="1695054788680"/>
 <node TEXT="06 Stamp" POSITION="bottom_or_right" ID="ID_148153666" CREATED="1695054788840" MODIFIED="1695054791946"/>
