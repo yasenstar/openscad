@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg2227"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="sekunden.svg">
+  <defs
+     id="defs2221" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="22.4"
+     inkscape:cx="-2.56967"
+     inkscape:cy="9.584105"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1389"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2224">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(1.7646179,0,0,1.7646179,-144.32034,-157.67714)"
+       id="g2207"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.56669492">
+      <g
+         id="g2198"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.56669492">
+        <path
+           sodipodi:nodetypes="ccccccccccccccc"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02833475;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 81.982444,209.28548 0.169526,46.43808 v 3.72507 3.77518 l 0.434311,0.43431 v 13.46371 h -0.801685 -0.801685 v -13.46371 l 0.434311,-0.43431 v -3.77518 -3.72507 l 0.169526,-46.43808 c 0,0 -0.01032,-0.16704 0.197848,-0.16704 0.208168,0 0.197848,0.16704 0.197848,0.16704 z"
+           id="path2179"
+           inkscape:connector-curvature="0" />
+      </g>
+      <circle
+         r="1.954409"
+         cy="257.67798"
+         cx="81.784599"
+         id="path2202"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02833475;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

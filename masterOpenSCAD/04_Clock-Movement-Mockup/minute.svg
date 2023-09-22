@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1597"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="minuten.svg">
+  <defs
+     id="defs1591" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="118.79168"
+     inkscape:cy="32.18205"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1389"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1594">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:nodetypes="ccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path1561"
+       d="m 0.97960042,292.16029 c 2.15881998,0.14487 4.13636998,2.63111 4.13645998,5.1905 -0.17791,2.67384 -1.59835,3.9849 -3.4888,4.78047 0.45144,6.62572 0.63691,13.11847 -0.0141,19.19261 l 1.0598,1.24895 -1.38363,1.31142 H -0.00506955 -1.2994695 l -1.3836,-1.31142 1.05978,-1.24895 c -0.65171,-6.07414 -0.46625,-12.56689 -0.0141,-19.19261 -1.89044,-0.79557 -3.3109,-2.10663 -3.4888,-4.78047 8e-5,-2.55939 1.97763,-5.04558 4.13644995,-5.1905 -1.46565995,-31.44515 -1.51053995,-56.3548 0.98538,-69.77604 2.49591995,13.42124 2.45102995,38.33089 0.98536997,69.77604 z"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>
