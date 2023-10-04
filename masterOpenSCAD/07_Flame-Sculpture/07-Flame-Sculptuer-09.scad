@@ -73,7 +73,22 @@ module flames (
                 }
             }
     
-    flame() children(0); // debug
+    // flame() children(0); // debug
+    
+    // flame triplet
+    union() {
+        flame() children(0);
+        
+        translate([x_radius,0,0])
+        rotate([0,0,120])
+        translate([-x_radius,0.0])
+        flame() children(0);
+        
+        translate([x_radius,0,0])
+        rotate([0,0,-120])
+        translate([-x_radius,0.0])
+        flame() children(0);
+    }
    
 }
 
