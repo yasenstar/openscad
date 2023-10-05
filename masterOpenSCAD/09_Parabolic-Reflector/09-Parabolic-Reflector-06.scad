@@ -62,6 +62,16 @@ module parabola( focus_point, base_area, resolution = [10, 10] ) {
         ]
     ];
     
+    side_faces_1 = [
+        for ( x = [0 : resolution.x - 1] )
+        [
+            x,
+            x + 1,
+            x + 1 + size_ppoints,
+            x + size_ppoints
+        ]
+    ];
+    
 }
 
 parabola(

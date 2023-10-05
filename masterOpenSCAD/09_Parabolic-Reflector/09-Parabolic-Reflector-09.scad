@@ -62,6 +62,50 @@ module parabola( focus_point, base_area, resolution = [10, 10] ) {
         ]
     ];
     
+    side_faces_1 = [
+        for ( x = [0 : resolution.x - 1] )
+        [
+            x,
+            x + 1,
+            x + 1 + size_ppoints,
+            x + size_ppoints
+        ]
+    ];
+    
+    last_row = resolution.y * size_x;
+    
+    side_faces_2 = [
+        for ( x = [0 : resolution.x - 1] )
+        [
+            x + last_row,
+            x + 1 + last_row,
+            x + 1 + size_ppoints + last_row,
+            x + size_ppoints + last_row
+        ]
+    ];
+    
+    side_faces_3 = [
+        for ( y = [0 : resolution.y - 1] )
+        [
+            y * size_x,
+            (y+1) * size_x,
+            (y+1) * size_x + size_ppoints,
+            y * size_x + size_ppoints
+        ]
+    ];
+    
+    last_col = resolution.x;
+    
+    side_faces_4 = [
+        for ( y = [0 : resolution.y - 1] )
+        [
+            y * size_x + last_col,
+            (y+1) * size_x + last_col,
+            (y+1) * size_x + size_ppoints + last_col,
+            y * size_x + size_ppoints + last_col
+        ]
+    ];
+    
 }
 
 parabola(
