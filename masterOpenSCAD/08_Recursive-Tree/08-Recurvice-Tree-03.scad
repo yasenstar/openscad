@@ -6,7 +6,7 @@ module r_tree(
     s_variance,
 ) {
 
-    rnd_value = rands( 0, 1, 10, rnd_seed );
+    rnd_values = rands( 0, 1, 10, rnd_seed );
     // echo(rnd_value);
     
     function z(from, to, idx) = rnd_values[idx] * (to - from) + from;
@@ -21,9 +21,12 @@ module r_tree(
         translate( [ 0, 0, h_increment] )
          r_tree(
             h_increment,
-            main_depth - 1 - rnd_value[0] * 2,
-            rnd_value[9] * 100
+            main_depth - 1 - z(0, 2, 0),
+            z(0,100,9),
+            scaling,
+            s_variance
             ) {
+                scale( [sf, sf] )
                 children(0);
             }
     }
